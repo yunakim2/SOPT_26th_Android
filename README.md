@@ -8,9 +8,9 @@
 
 ConstraintLayout, LinearLayout, 등 레이아웃에 대해 공부하고 간단한 로그인,회원가입 기능 구현 방법에 대해 공부한다
 
-​	‼️ [1차 보충 세미나 (코틀린 문법 정리) 리드미]([https://github.com/yunakim2/SOPT_26_Android/blob/master/HelloSopt/1%EC%B0%A8%20%EB%B3%B4%EC%B6%A9%20%EC%84%B8%EB%AF%B8%EB%82%98%20-%20%EC%BD%94%ED%8B%80%EB%A6%B0.md](https://github.com/yunakim2/SOPT_26_Android/blob/master/HelloSopt/1차 보충 세미나 - 코틀린.md))
+​	‼️ [1차 보충 세미나 (코틀린 문법 정리) 리드미](https://github.com/yunakim2/SOPT_26_Android/blob/master/HelloSopt/1%EC%B0%A8%20%EB%B3%B4%EC%B6%A9%20%EC%84%B8%EB%AF%B8%EB%82%98%20-%20%EC%BD%94%ED%8B%80%EB%A6%B0.md)
 
-​	‼️ [1차 세미나 리드미]([https://github.com/yunakim2/SOPT_26_Android/blob/master/FirstSemina/1%EC%B0%A8%20%EC%84%B8%EB%AF%B8%EB%82%98.md](https://github.com/yunakim2/SOPT_26_Android/blob/master/FirstSemina/1차 세미나.md))
+​	‼️ [1차 세미나 리드미](https://github.com/yunakim2/SOPT_26_Android/blob/master/FirstSemina/1%EC%B0%A8%20%EC%84%B8%EB%AF%B8%EB%82%98.md)
 
 ​	
 
