@@ -1,0 +1,2 @@
+rootProject.name='1_semina_assignment'
+include ':app'
