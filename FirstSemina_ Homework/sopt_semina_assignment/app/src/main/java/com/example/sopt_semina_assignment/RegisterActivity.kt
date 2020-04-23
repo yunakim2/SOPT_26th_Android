@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_register.*
 
 class RegisterActivity : AppCompatActivity() {
 
+    val CODE =100
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -38,7 +39,7 @@ class RegisterActivity : AppCompatActivity() {
                     editor.commit()
                     intent.putExtra("id",edit_email_register.text.toString())
                     intent.putExtra("pw",edit_pw_register.text.toString())
-                    startActivityForResult(intent,100)
+                    startActivityForResult(intent,CODE)
                 }
                 else
                 {
@@ -51,15 +52,16 @@ class RegisterActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if(resultCode== Activity.RESULT_OK)
+        if (resultCode== Activity.RESULT_OK)
         {
-            if(requestCode == 100)
+            if(requestCode==CODE)
             {
-                Log.d("회원가입","종료")
                 finish()
             }
         }
+
     }
+
 
 
 }

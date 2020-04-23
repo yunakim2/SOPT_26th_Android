@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.activity_login.*
 
 
 class LoginActivity : AppCompatActivity() {
-
+    val CODE=1000
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -23,6 +23,7 @@ class LoginActivity : AppCompatActivity() {
     fun init()
     {   var pref : SharedPreferences = getSharedPreferences("pref",Context.MODE_PRIVATE)
         var editor : SharedPreferences.Editor = pref.edit()
+
 
         edit_id.setText(intent.getStringExtra("id")?.toString())
         edit_pw.setText(intent.getStringExtra("pw")?.toString())
@@ -42,13 +43,13 @@ class LoginActivity : AppCompatActivity() {
                 editor.putString("pw",edit_pw.toString())
                 editor.commit()
                 val intent = Intent(applicationContext, MainActivity::class.java)
-                startActivityForResult(intent,100)
+                startActivityForResult(intent,CODE)
             }
 
         }
         tv_register_btn.setOnClickListener {
             val intent = Intent(applicationContext, RegisterActivity::class.java)
-            startActivity(intent)
+            startActivityForResult(intent,CODE)
             finish()
         }
     }
@@ -64,7 +65,7 @@ class LoginActivity : AppCompatActivity() {
                 Log.d("자동로그인 id ", "${id}")
                 Toast.makeText(this, "${id}님 자동로그인 되었습니다.", Toast.LENGTH_SHORT).show();
                 val intent = Intent(applicationContext, MainActivity::class.java)
-                startActivityForResult(intent,100)
+                startActivityForResult(intent,CODE)
             }
 
         }
@@ -73,14 +74,13 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if(resultCode== Activity.RESULT_OK)
-        {
-            if(requestCode == 100)
-            {
-                Log.d("로그인","종료")
+        if (resultCode == Activity.RESULT_OK) {
+            if (requestCode == CODE) {
+                Log.d("로그인", "종료")
                 finish()
             }
         }
     }
+
 }
 
