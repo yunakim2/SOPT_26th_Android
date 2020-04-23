@@ -49,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
         }
         tv_register_btn.setOnClickListener {
             val intent = Intent(applicationContext, RegisterActivity::class.java)
-            startActivityForResult(intent,CODE)
+            startActivity(intent)
             finish()
         }
     }

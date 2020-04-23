@@ -9,7 +9,8 @@
         android:layout_height="100dp"
         android:layout_marginTop="100dp"
         android:layout_alignParentTop="true"
-        android:src="@mipmap/ic_launcher"/>
+        android:scaleType="centerCrop"
+        android:src="@mipmap/sopt"/>
 
     <EditText
         android:id="@+id/edit_id"
