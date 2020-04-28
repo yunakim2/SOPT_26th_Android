@@ -52,7 +52,7 @@ ConstraintLayout, LinearLayout, 등 레이아웃에 대해 공부하고 간단�
 
 ​	[기본과제 1 & 2파일](https://github.com/yunakim2/SOPT_26_Android/tree/master/SecondSemina_Homework/2_semina_assignment2)
 
-​	[기본과제 1 & 2 리드미]([https://github.com/yunakim2/SOPT_26_Android/blob/master/SecondSemina_Homework/2%EC%B0%A8%EC%84%B8%EB%AF%B8%EB%82%98_%20%EA%B8%B0%EB%B3%B8%EA%B3%BC%EC%A0%9C%201%262.md](https://github.com/yunakim2/SOPT_26_Android/blob/master/SecondSemina_Homework/2차세미나_ 기본과제 1%262.md))
+​	[기본과제 1 & 2 리드미](https://github.com/yunakim2/SOPT_26_Android/blob/master/SecondSemina_Homework/2차세미나_ 기본과제 1%262.md)
 
 <br>
 
