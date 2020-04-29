@@ -39,7 +39,7 @@ ConstraintLayout, LinearLayout, 등 레이아웃에 대해 공부하고 간단�
 <br>
 <br>
 
-###  2️⃣차 세미나 (20200425_토요일) 
+###  2️⃣ 차 세미나 (20200425_토요일) 
 
 라이브러리 사용하여 BottomNavigation 과 ViewPager 적용해보기 &RecyclerView 구현하기
 
@@ -57,6 +57,12 @@ ConstraintLayout, LinearLayout, 등 레이아웃에 대해 공부하고 간단�
 <br>
 
 ​	➡️ 성장 과제 1
+
+​	[성장과제 1 파일](https://github.com/yunakim2/SOPT_26_Android/tree/master/SecondSemina_Homework/2_semina_assignment)
+
+​	[성장과제 1 리드미](https://github.com/yunakim2/SOPT_26_Android/blob/master/SecondSemina_Homework/2%EC%B0%A8%20%EC%84%B8%EB%AF%B8%EB%82%98%20_%20%EC%84%B1%EC%9E%A5%EA%B3%BC%EC%A0%9C%201.md)
+
+
 
 
 
