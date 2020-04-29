@@ -37,6 +37,17 @@
         android:text="★"
         android:textColor="@color/colorPrimary"
         android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:text="btn"
+        android:textSize="10sp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:background="@drawable/btn_style"
+        app:layout_constraintLeft_toRightOf="@id/tv_star"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"/>
 
     <TextView
         android:layout_width="wrap_content"

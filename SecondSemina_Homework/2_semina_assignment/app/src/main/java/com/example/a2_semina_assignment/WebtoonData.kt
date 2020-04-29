@@ -4,5 +4,6 @@ data class WebtoonData(
     val img : String,
     val title : String,
     val star : String,
-    val subtitle :String
+    val subtitle :String,
+    val update : String
 )
