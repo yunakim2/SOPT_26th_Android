@@ -35,7 +35,6 @@ ConstraintLayout, LinearLayout, 등 레이아웃에 대해 공부하고 간단�
 
 ​	[성장과제1 리드미](https://github.com/yunakim2/SOPT_26_Android/blob/master/FirstSemina_%20Homework/1%EC%B0%A8%EC%84%B8%EB%AF%B8%EB%82%98_%EC%84%B1%EC%9E%A5%EA%B3%BC%EC%A0%9C1.md)
 
-
 <br>
 <br>
 
@@ -62,7 +61,13 @@ ConstraintLayout, LinearLayout, 등 레이아웃에 대해 공부하고 간단�
 
 ​	[성장과제 1 리드미](https://github.com/yunakim2/SOPT_26_Android/blob/master/SecondSemina_Homework/2%EC%B0%A8%20%EC%84%B8%EB%AF%B8%EB%82%98%20_%20%EC%84%B1%EC%9E%A5%EA%B3%BC%EC%A0%9C%201.md)
 
+<br>
 
+<br>
+
+### 깃 파일 올리는 법
+
+​	[깃 파일올리기 리드미](https://github.com/yunakim2/SOPT_26_Android/blob/master/Study/%EA%B9%83%EC%97%90%20%ED%8C%8C%EC%9D%BC%EC%98%AC%EB%A6%AC%EA%B8%B0.md)
 
 
 
