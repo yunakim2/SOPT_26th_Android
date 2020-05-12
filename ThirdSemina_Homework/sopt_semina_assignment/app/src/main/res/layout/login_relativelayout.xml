@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/img_sopt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/sopt"/>
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="아이디"
+        android:layout_below="@id/img_sopt"
+        android:background="@drawable/edittext_style"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/edit_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="비밀번호"
+        android:layout_below="@id/edit_id"
+        android:background="@drawable/edittext_style"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="로그인"
+        android:layout_below="@id/edit_pw"
+        android:background="@drawable/btn_style1"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="아직 회원이 아니신가요?"
+        android:layout_below="@id/btn_login"
+        android:textColor="@color/colorPeacock"/>
+
+    <TextView
+        android:id="@+id/tv_register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/btn_login"
+        android:layout_toRightOf="@id/tv_hint"
+        android:text="회원가입하기"
+        android:textColor="@color/colorPeacock"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
