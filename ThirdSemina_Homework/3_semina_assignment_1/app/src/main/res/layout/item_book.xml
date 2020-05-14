@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/edit_style"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="130dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="380dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/img_book_item"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title_item"
+        android:text="책제목"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@id/img_book_item"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="책내용"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:id="@+id/tv_subtitle_item"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_item"
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        app:layout_constraintRight_toRightOf="@id/guideline3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_author_item"
+        android:textSize="10sp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/img_book_item"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="작가"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_price_item"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_author_item"
+        android:textColor="#000000"
+        android:text="가격"
+        android:layout_marginLeft="10dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
