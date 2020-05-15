@@ -71,6 +71,34 @@ ConstraintLayout, LinearLayout, 등 레이아웃에 대해 공부하고 간단�
 
 ---
 
+###  3️⃣차 세미나 (20200509_토요일) 
+
+ 서버 관련된 여러가지 개념 이해 & retrofit2 이용하여 서버 연결하기 
+
+<br>
+
+### 📝 과제 📝
+
+➡️ 기본 과제 
+
+> [기본과제 1&2 파일📁](https://github.com/yunakim2/SOPT_26_Android/tree/master/ThirdSemina_Homework/sopt_semina_assignment)
+>
+> [기본과제 1&2 리드미🧾](https://github.com/yunakim2/SOPT_26_Android/blob/master/ThirdSemina_Homework/3%EC%B0%A8%EC%84%B8%EB%AF%B8%EB%82%98_%EA%B8%B0%EB%B3%B8%EA%B3%BC%EC%A0%9C.md)
+
+<br>
+
+➡️ 성장 과제 
+
+[성장과제 1 파일📁](https://github.com/yunakim2/SOPT_26_Android/tree/master/ThirdSemina_Homework/3_semina_assignment_1)
+
+[성장과제 1 리드미🧾](https://github.com/yunakim2/SOPT_26_Android/blob/master/ThirdSemina_Homework/3%EC%B0%A8%20%EC%84%B8%EB%AF%B8%EB%82%98%20_%20%EC%84%B1%EC%9E%A5%EA%B3%BC%EC%A0%9C.md)
+
+<br>
+
+<br>
+
+---
+
 ### 깃 파일 올리는 법 
 
 ➡️ [깃 파일올리기 리드미📃](https://github.com/yunakim2/SOPT_26_Android/blob/master/Study/%EA%B9%83%EC%97%90%20%ED%8C%8C%EC%9D%BC%EC%98%AC%EB%A6%AC%EA%B8%B0.md)
